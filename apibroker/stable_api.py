@@ -870,9 +870,6 @@ class API:
 
         return result, pnl
 
-
-
-
     def check_win_v3(self, id_number):
         while True:
             time.sleep(1)
