@@ -29,11 +29,11 @@ A API não executa trades reais; serve apenas para estudos de gráficos e tendê
 
 Operações disponíveis Compra digital spot x, y = api.buy_digital_spot_v2(ativo_desejado, valor, direcao, tempo_em_minutos) print(json.dumps({"x": x, "y": y}, ensure_ascii=False, default=str, indent=2))
 
-Verificar resultado da operação x, y = api.check_win_v4(y) print(json.dumps({"x": x, "y": y}, ensure_ascii=False, default=str, indent=2))
+Verificar resultado da operação x, y = api.check_win(y) print(json.dumps({"x": x, "y": y}, ensure_ascii=False, default=str, indent=2))
 
-Compra normal x, y = api.buy(valor, ativo_desejado, direcao, tempo_em_minutos) x, y = api.check_win_v4(y)
+Compra normal x, y = api.buy(valor, ativo_desejado, direcao, tempo_em_minutos) x, y = api.check_win(y)
 
-Blitz (modo rápido de estudo) x, y = api.blitz(valor, ativo_desejado, direcao, tempo_em_minutos) x, y = api.check_win_v4(y)
+Blitz (modo rápido de estudo) x, y = api.blitz(valor, ativo_desejado, direcao, tempo_em_minutos) x, y = api.check_win(y)
 
 Observação:
 
