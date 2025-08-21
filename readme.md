@@ -47,7 +47,7 @@ api.get_all_actives() → lista todos os ativos disponíveis (apenas leitura).
 
 api.connect() → conecta à API para estudo.
 
-api.check_win_v4() → checa se a operação teria ganho ou perdido.
+api.check_win() → checa se a operação teria ganho ou perdido.
 get_currency() -> tipo de moeda que está usando
 get_candles('ACTIVES', 'interval', 'count','endtime') -> retorna a velas
 
